@@ -1,4 +1,4 @@
-###🚀 **Task Manager Backend (Flask)**
+## 🚀 **Task Manager Backend (Flask)**
 
 A **production-grade Flask backend** for task management, featuring **AI-powered priority analysis (mock)**, **daily summary emails**, **logging**, and **pytest-based testing**.
 
@@ -34,7 +34,7 @@ task_manager_backend_prod/
 ├── README.md              # Documentation
 └── wsgi.py                # App entry point
 
-⚡ Quick Start
+## ⚡ Quick Start
 1. Clone the Repo
 git clone https://github.com/<your-username>/task_manager_backend_prod.git
 cd task_manager_backend_prod
@@ -83,7 +83,7 @@ All logs are saved in logs/app.log.
 
 Uses RotatingFileHandler for log rotation.
 
-🚀 Future Enhancements
+## 🚀 Future Enhancements
 JWT-based authentication for APIs.
 
 Real AI integration (OpenAI GPT models).
@@ -92,4 +92,4 @@ Task search, filters, and pagination.
 
 Marshmallow schemas for request validation.
 
-Author: Purnima Nahata
+## Author: Purnima Nahata
