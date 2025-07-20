@@ -1,4 +1,4 @@
-#🚀 **Task Manager Backend (Flask)**
+🚀 **Task Manager Backend (Flask)**
 
 A **production-grade Flask backend** for task management, featuring **AI-powered priority analysis (mock)**, **daily summary emails**, **logging**, and **pytest-based testing**.
 
