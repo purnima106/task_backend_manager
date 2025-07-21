@@ -19,20 +19,21 @@ A **production-grade Flask backend** for task management, featuring **AI-powered
 task_manager_backend_prod/
 │
 ├── app/
-│   ├── controllers/       # API routes (tasks, summary)
-│   ├── models/            # Database models
-│   ├── services/          # AI, Email, and Task services
-│   ├── scheduler/         # Email scheduling jobs
-│   ├── utils/             # Helper functions & logging
-│   ├── extensions.py      # Flask extensions
-│   ├── config.py          # App configurations
-│   └── __init__.py        # App factory
+│   ├── controllers/         # API routes (tasks, summary)
+│   ├── models/              # Database models
+│   ├── services/            # AI, Email, and Task services
+│   ├── scheduler/           # Email scheduling jobs
+│   ├── utils/               # Helper functions & logging
+│   ├── extensions.py        # Flask extensions
+│   ├── config.py            # App configuration (env-driven)
+│   └── __init__.py          # App factory
 │
-├── tests/                 # Pytest test cases
-├── logs/                  # Application logs
-├── requirements.txt       # Dependencies
-├── README.md              # Documentation
-└── wsgi.py                # App entry point
+├── migrations/              # Alembic migrations (DB schema) – required by spec. :contentReference[oaicite:2]{index=2}
+├── tests/                   # Pytest test cases (API, unit) – testing required by spec. :contentReference[oaicite:3]{index=3}
+├── logs/                    # Rotating app logs
+├── requirements.txt
+├── README.md
+└── wsgi.py                  # Entry point for production servers
 
 ## ⚡ Quick Start
 1. Clone the Repo
