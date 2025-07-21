@@ -14,8 +14,8 @@ A **production-grade Flask backend** for task management, featuring **AI-powered
 
 ---
 
-## 📂 **Project Structure**
-
+## 📂 Project Structure
+```plaintext
 task_manager_backend_prod/
 │
 ├── app/
@@ -28,13 +28,13 @@ task_manager_backend_prod/
 │   ├── config.py            # App configuration (env-driven)
 │   └── __init__.py          # App factory
 │
-├── migrations/              # Alembic migrations (DB schema) – required by spec. :contentReference[oaicite:2]{index=2}
-├── tests/                   # Pytest test cases (API, unit) – testing required by spec. :contentReference[oaicite:3]{index=3}
-├── logs/                    # Rotating app logs
-├── requirements.txt
+├── migrations/              # Alembic migrations
+├── tests/                   # Pytest test cases
+├── logs/                    # Rotating logs
+├── requirements.txt         # Dependencies
 ├── README.md
-└── wsgi.py                  # Entry point for production servers
-
+└── wsgi.py                  # App entry point
+```
 ## ⚡ Quick Start
 1. Clone the Repo
 git clone https://github.com/<your-username>/task_manager_backend_prod.git
